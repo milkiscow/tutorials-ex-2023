@@ -1,6 +1,6 @@
 """
 `파이토치(PyTorch) 기본 익히기 <intro.html>`_ ||
-`빠른 시작 <quickstart_tutorial.html>`_ ||
+`매우 빠른 시작 <quickstart_tutorial.html>`_ ||
 `텐서(Tensor) <tensorqs_tutorial.html>`_ ||
 `Dataset과 Dataloader <data_tutorial.html>`_ ||
 `변형(Transform) <transforms_tutorial.html>`_ ||
