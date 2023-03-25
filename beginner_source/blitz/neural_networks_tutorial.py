@@ -150,7 +150,7 @@ loss = criterion(output, target)
 print(loss)
 
 ########################################################################
-# 이제 ``.grad_fn`` 속성을 사용하여 ``loss`` 를 역방향에서 따라가다보면,
+# 이제 ``.grad_fn`` 속성을 사용하여 ``loss`` 를 역방향에서 따라가다 보면,
 # 이러한 모습의 연산 그래프를 볼 수 있습니다:
 #
 # ::
@@ -164,7 +164,7 @@ print(loss)
 # 미분되며, 그래프 내의 ``requires_grad=True`` 인 모든 Tensor는 변화도가
 # 누적된 ``.grad`` Tensor를 갖게 됩니다.
 #
-# 설명을 위해, 역전파의 몇 단계를 따라가보겠습니다:
+# 설명을 위해, 역전파의 몇 단계를 따라가 보겠습니다:
 
 print(loss.grad_fn)  # MSELoss
 print(loss.grad_fn.next_functions[0][0])  # Linear
